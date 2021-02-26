@@ -78,6 +78,11 @@
     <Content Include="images\portfolio\realizacje-intro-1.jpg" />
     <Content Include="images\portfolio\realizacje-intro-2.jpg" />
     <Content Include="images\portfolio\realizacje-intro-3.jpg" />
+    <Content Include="images\posts\post-1.jpg" />
+    <Content Include="images\posts\post-2.jpg" />
+    <Content Include="images\posts\post-mini-1.png" />
+    <Content Include="images\posts\post-mini-2.png" />
+    <Content Include="images\posts\post-mini-3.png" />
     <Content Include="images\projekt-lokale-ikona.png" />
     <Content Include="images\projekt-mebli-ikona.png" />
     <Content Include="images\projekt-wnetrz-ikona.png" />
@@ -97,8 +102,8 @@
     <Content Include="images\ui\date-icon.png" />
     <Content Include="images\ui\icon-top-cart.png" />
     <Content Include="images\ui\icon-top-search.png" />
-    <Content Include="images\view-grid.png" />
-    <Content Include="images\view-list.png" />
+    <Content Include="images\ui\view-grid.png" />
+    <Content Include="images\ui\view-list.png" />
     <Content Include="post-list.html" />
     <Content Include="index.html" />
     <Content Include="style\style.css" />
@@ -209,6 +214,7 @@
     <Content Include="source\custom\components\_services-group.scss" />
     <Content Include="source\custom\pages\_front-page.scss" />
     <Content Include="source\custom\pages\_pages.scss" />
+    <Content Include="source\custom\components\_button.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
