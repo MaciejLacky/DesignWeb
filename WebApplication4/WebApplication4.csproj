@@ -217,6 +217,8 @@
     <Content Include="source\custom\pages\_pages.scss" />
     <Content Include="source\custom\components\_button.scss" />
     <Content Include="source\custom\components\_post-item.scss" />
+    <Content Include="source\custom\components\_post-widgets.scss" />
+    <Content Include="source\custom\components\_pagination.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
