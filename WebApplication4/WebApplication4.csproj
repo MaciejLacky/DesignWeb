@@ -1,0 +1,255 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2334DB96-DEFD-4519-9833-922FBB2E63B6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication4</RootNamespace>
+    <AssemblyName>WebApplication4</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44321</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\bg\footer-bg.jpg" />
+    <Content Include="images\bg\top-bg.jpg" />
+    <Content Include="images\bg\witamy-tlo.jpg" />
+    <Content Include="images\design-subheader.png" />
+    <Content Include="images\pages\aktualnosci-front-1.jpg" />
+    <Content Include="images\pages\aktualnosci-front-2.jpg" />
+    <Content Include="images\pages\front-page-welcome.png" />
+    <Content Include="images\portfolio\realizacja-1.jpg" />
+    <Content Include="images\portfolio\realizacje-intro-1.jpg" />
+    <Content Include="images\portfolio\realizacje-intro-2.jpg" />
+    <Content Include="images\portfolio\realizacje-intro-3.jpg" />
+    <Content Include="images\projekt-lokale-ikona.png" />
+    <Content Include="images\projekt-mebli-ikona.png" />
+    <Content Include="images\projekt-wnetrz-ikona.png" />
+    <Content Include="images\projekt-zielen-ikona.png" />
+    <Content Include="images\service-1.jpg" />
+    <Content Include="images\service-2.jpg" />
+    <Content Include="images\service-3.jpg" />
+    <Content Include="images\service-4.jpg" />
+    <Content Include="images\social\social-icon-fb.png" />
+    <Content Include="images\social\social-icon-inst.png" />
+    <Content Include="images\social\social-icon-pin.png" />
+    <Content Include="images\social\social-icon-plus.png" />
+    <Content Include="images\social\social-icon-twit.png" />
+    <Content Include="images\ui\contact-footer-icon-email.png" />
+    <Content Include="images\ui\contact-footer-icon-phone.png" />
+    <Content Include="images\ui\contact-footer-icon-pin.png" />
+    <Content Include="images\ui\date-icon.png" />
+    <Content Include="images\ui\icon-top-cart.png" />
+    <Content Include="images\ui\icon-top-search.png" />
+    <Content Include="index.html" />
+    <Content Include="style\style.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="source\bootstrap\bootstrap-grid.scss" />
+    <Content Include="source\bootstrap\bootstrap-reboot.scss" />
+    <Content Include="source\bootstrap\bootstrap.scss" />
+    <Content Include="source\bootstrap\_alert.scss" />
+    <Content Include="source\bootstrap\_badge.scss" />
+    <Content Include="source\bootstrap\_breadcrumb.scss" />
+    <Content Include="source\bootstrap\_button-group.scss" />
+    <Content Include="source\bootstrap\_buttons.scss" />
+    <Content Include="source\bootstrap\_card.scss" />
+    <Content Include="source\bootstrap\_carousel.scss" />
+    <Content Include="source\bootstrap\_close.scss" />
+    <Content Include="source\bootstrap\_code.scss" />
+    <Content Include="source\bootstrap\_custom-forms.scss" />
+    <Content Include="source\bootstrap\_dropdown.scss" />
+    <Content Include="source\bootstrap\_forms.scss" />
+    <Content Include="source\bootstrap\_functions.scss" />
+    <Content Include="source\bootstrap\_grid.scss" />
+    <Content Include="source\bootstrap\_images.scss" />
+    <Content Include="source\bootstrap\_input-group.scss" />
+    <Content Include="source\bootstrap\_jumbotron.scss" />
+    <Content Include="source\bootstrap\_list-group.scss" />
+    <Content Include="source\bootstrap\_media.scss" />
+    <Content Include="source\bootstrap\_mixins.scss" />
+    <Content Include="source\bootstrap\_modal.scss" />
+    <Content Include="source\bootstrap\_nav.scss" />
+    <Content Include="source\bootstrap\_navbar.scss" />
+    <Content Include="source\bootstrap\_pagination.scss" />
+    <Content Include="source\bootstrap\_popover.scss" />
+    <Content Include="source\bootstrap\_print.scss" />
+    <Content Include="source\bootstrap\_progress.scss" />
+    <Content Include="source\bootstrap\_reboot.scss" />
+    <Content Include="source\bootstrap\_root.scss" />
+    <Content Include="source\bootstrap\_tables.scss" />
+    <Content Include="source\bootstrap\_tooltip.scss" />
+    <Content Include="source\bootstrap\_transitions.scss" />
+    <Content Include="source\bootstrap\_type.scss" />
+    <Content Include="source\bootstrap\_utilities.scss" />
+    <Content Include="source\bootstrap\_variables.scss" />
+    <Content Include="source\bootstrap\mixins\_alert.scss" />
+    <Content Include="source\bootstrap\mixins\_background-variant.scss" />
+    <Content Include="source\bootstrap\mixins\_badge.scss" />
+    <Content Include="source\bootstrap\mixins\_border-radius.scss" />
+    <Content Include="source\bootstrap\mixins\_box-shadow.scss" />
+    <Content Include="source\bootstrap\mixins\_breakpoints.scss" />
+    <Content Include="source\bootstrap\mixins\_buttons.scss" />
+    <Content Include="source\bootstrap\mixins\_caret.scss" />
+    <Content Include="source\bootstrap\mixins\_clearfix.scss" />
+    <Content Include="source\bootstrap\mixins\_float.scss" />
+    <Content Include="source\bootstrap\mixins\_forms.scss" />
+    <Content Include="source\bootstrap\mixins\_gradients.scss" />
+    <Content Include="source\bootstrap\mixins\_grid-framework.scss" />
+    <Content Include="source\bootstrap\mixins\_grid.scss" />
+    <Content Include="source\bootstrap\mixins\_hover.scss" />
+    <Content Include="source\bootstrap\mixins\_image.scss" />
+    <Content Include="source\bootstrap\mixins\_list-group.scss" />
+    <Content Include="source\bootstrap\mixins\_lists.scss" />
+    <Content Include="source\bootstrap\mixins\_nav-divider.scss" />
+    <Content Include="source\bootstrap\mixins\_navbar-align.scss" />
+    <Content Include="source\bootstrap\mixins\_pagination.scss" />
+    <Content Include="source\bootstrap\mixins\_reset-text.scss" />
+    <Content Include="source\bootstrap\mixins\_resize.scss" />
+    <Content Include="source\bootstrap\mixins\_screen-reader.scss" />
+    <Content Include="source\bootstrap\mixins\_size.scss" />
+    <Content Include="source\bootstrap\mixins\_table-row.scss" />
+    <Content Include="source\bootstrap\mixins\_text-emphasis.scss" />
+    <Content Include="source\bootstrap\mixins\_text-hide.scss" />
+    <Content Include="source\bootstrap\mixins\_text-truncate.scss" />
+    <Content Include="source\bootstrap\mixins\_transition.scss" />
+    <Content Include="source\bootstrap\mixins\_visibility.scss" />
+    <Content Include="source\bootstrap\utilities\_align.scss" />
+    <Content Include="source\bootstrap\utilities\_background.scss" />
+    <Content Include="source\bootstrap\utilities\_borders.scss" />
+    <Content Include="source\bootstrap\utilities\_clearfix.scss" />
+    <Content Include="source\bootstrap\utilities\_display.scss" />
+    <Content Include="source\bootstrap\utilities\_embed.scss" />
+    <Content Include="source\bootstrap\utilities\_flex.scss" />
+    <Content Include="source\bootstrap\utilities\_float.scss" />
+    <Content Include="source\bootstrap\utilities\_position.scss" />
+    <Content Include="source\bootstrap\utilities\_screenreaders.scss" />
+    <Content Include="source\bootstrap\utilities\_sizing.scss" />
+    <Content Include="source\bootstrap\utilities\_spacing.scss" />
+    <Content Include="source\bootstrap\utilities\_text.scss" />
+    <Content Include="source\bootstrap\utilities\_visibility.scss" />
+    <Content Include="source\style.scss" />
+    <Content Include="source\custom\base\_mixins.scss" />
+    <Content Include="source\custom\base\_typography.scss" />
+    <Content Include="source\custom\base\_variables.scss" />
+    <Content Include="source\custom\components\_components.scss" />
+    <Content Include="source\custom\components\_footer.scss" />
+    <Content Include="source\custom\components\_header.scss" />
+    <Content Include="source\custom\components\_helpers.scss" />
+    <Content Include="source\custom\components\_hero-unit.scss" />
+    <Content Include="source\custom\components\_page-intro.scss" />
+    <Content Include="source\custom\components\_portfolio.scss" />
+    <Content Include="source\custom\components\_post-box.scss" />
+    <Content Include="source\custom\components\_section-header.scss" />
+    <Content Include="source\custom\components\_service-box.scss" />
+    <Content Include="source\custom\components\_services-group.scss" />
+    <Content Include="source\custom\pages\_front-page.scss" />
+    <Content Include="source\custom\pages\_pages.scss" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52466</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44321/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
