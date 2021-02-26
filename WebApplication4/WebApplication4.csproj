@@ -97,6 +97,9 @@
     <Content Include="images\ui\date-icon.png" />
     <Content Include="images\ui\icon-top-cart.png" />
     <Content Include="images\ui\icon-top-search.png" />
+    <Content Include="images\view-grid.png" />
+    <Content Include="images\view-list.png" />
+    <Content Include="post-list.html" />
     <Content Include="index.html" />
     <Content Include="style\style.css" />
     <Content Include="Web.config" />
