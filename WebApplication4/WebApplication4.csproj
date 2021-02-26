@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="gulpfile.js" />
     <Content Include="images\bg\footer-bg.jpg" />
     <Content Include="images\bg\top-bg.jpg" />
     <Content Include="images\bg\witamy-tlo.jpg" />
@@ -215,6 +216,7 @@
     <Content Include="source\custom\pages\_front-page.scss" />
     <Content Include="source\custom\pages\_pages.scss" />
     <Content Include="source\custom\components\_button.scss" />
+    <Content Include="source\custom\components\_post-item.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
