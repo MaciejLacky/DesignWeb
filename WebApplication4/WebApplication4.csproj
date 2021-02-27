@@ -67,8 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\portfolio\portfolio-1.jpg" />
+    <Content Include="images\portfolio\portfolio-2.jpg" />
+    <Content Include="images\portfolio\portfolio-3.jpg" />
+    <Content Include="portfolio.html" />
     <Content Include="contact.html" />
     <Content Include="gulpfile.js" />
+    <Content Include="images\bg\contact-form-bg.jpg" />
     <Content Include="images\bg\footer-bg.jpg" />
     <Content Include="images\bg\top-bg.jpg" />
     <Content Include="images\bg\witamy-tlo.jpg" />
@@ -78,6 +83,7 @@
     <Content Include="images\pages\aktualnosci-front-1.jpg" />
     <Content Include="images\pages\aktualnosci-front-2.jpg" />
     <Content Include="images\pages\front-page-welcome.png" />
+    <Content Include="images\pages\mapa.jpg" />
     <Content Include="images\portfolio\realizacja-1.jpg" />
     <Content Include="images\portfolio\realizacje-intro-1.jpg" />
     <Content Include="images\portfolio\realizacje-intro-2.jpg" />
@@ -233,6 +239,9 @@
     <Content Include="source\custom\pages\_post-page.scss" />
     <Content Include="source\custom\components\_about-avatar.scss" />
     <Content Include="source\custom\pages\_about-page.scss" />
+    <Content Include="source\custom\components\_contact-form.scss" />
+    <Content Include="source\custom\components\_navigator.scss" />
+    <Content Include="source\custom\pages\_portfolio-page.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

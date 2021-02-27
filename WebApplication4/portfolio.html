@@ -16,8 +16,8 @@
                 <li class="nav-item ">
                     <a class="nav-link text-white sk-header-item-link" href="index.html">Strona główna</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white sk-header-item-link" href="portfolio.html">Realizacje</a>
+                <li class="nav-item sk-header-item-active">
+                    <a class="nav-link sk-header-item-link" href="portfolio.html">Realizacje</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white sk-header-item-link" href="portfolio.html">Usługi</a>
@@ -31,8 +31,8 @@
                 <li class="nav-item ">
                     <a class="nav-link text-white sk-header-item-link" href="about.html">O nas</a>
                 </li>
-                <li class="nav-item sk-header-item-active">
-                    <a class="nav-link sk-header-item-link" href="contact.html">Kontakt</a>
+                <li class="nav-item">
+                    <a class="nav-link text-white sk-header-item-link" href="contact.html">Kontakt</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link sk-header-item-link" href="#">
@@ -55,40 +55,85 @@
             <img class="img-fluid sk-hero-subheader" src="images/design-subheader.png" alt="">
         </div>
     </div>
-    <!-- O nas -->
-    <div class="sk-about-page">
+    <!-- Portfolio -->
+    <div class="sk-portfolio-page">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="mb-5 mb-lg-0 sk-contact-form">
-                        <h4 class="text-uppercase text-white sk-contact-form-header">formularz kontaktowy</h4>
-                        <form class="sk-form" action="">
-                            <div class="row">
-                                <div class="col-sm-6 sk-form-group">
-                                    <label class="text-white" for="name">Imię i nazwisko</label>
-                                    <input class="form-control form-control-sm sk-contact-form-control" type="text" id="name">
-                                </div>
-                                <div class="col-sm-6 sk-form-group">
-                                    <label class="text-white" for="email">Adres email</label>
-                                    <input class="form-control form-control-sm sk-contact-form-control" type="email" id="email">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col sk-form-group">
-                                    <label class="text-white" for="msg">Treść wiadomości</label>
-                                    <textarea class="form-control sk-contact-form-control" id="msg" cols="30" rows="2"></textarea>
-                                </div>
-                            </div>
-                            <button class="btn btn-primary text-white text-uppercase sk-contact-form-btn">Wyslij wiadomość</button>
-                        </form>
+            <ul class="nav nav-pills justify-content-center text-uppercase sk-navigator">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Wszystkie realizacje</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Wnętrza</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Meble</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Zieleń</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Użytkowe</a>
+                </li>
+            </ul>
+            <!-- Boxy portfolio -->
+            <div class="d-flex flex-wrap justify-content-around justify-content-xl-between sk-portfolio">
+                <div class="sk-portfolio-item">
+                    <div class="sk-portfolio-box-img sk-portfolio-img-overlay">
+                        <img class="img-fluid" src="images/portfolio/portfolio-1.jpg" alt="realizacja 1">
+                    </div>
+                    <div class="text-center text-white sk-portfolio-box-text">
+                        <h4 class="text-uppercase sk-portfolio-box-header">Najnowszy projekt</h4>
+                        <div class="w-50 mx-auto sk-hr"></div>
+                        <span class="d-block sk-portfolio-item-info"><span class="text-uppercase">klient: </span>XYZ Construction</span>
+                        <span class="d-block sk-portfolio-item-info"><span class="text-uppercase">lokalizacja: </span>Warszawa</span>
+                        <span class="d-block sk-portfolio-item-info"><span class="text-uppercase">powierzchnia: </span>140m2</span>
+                        <span class="d-block sk-portfolio-item-info"><span class="text-uppercase">wartość: </span>90000zł</span>
                     </div>
                 </div>
-                <div class="col-lg-6 text-lg-right">
-                    <img class="img-fluid" src="images/pages/mapa.jpg" alt="lokalizacja naszej firmy">
+                <div class="sk-portfolio-item">
+                    <div class="sk-portfolio-box-img">
+                        <img class="img-fluid" src="images/portfolio/portfolio-2.jpg" alt="realizacja 1">
+                    </div>
+                </div>
+                <div class="sk-portfolio-item">
+                    <div class="sk-portfolio-box-img">
+                        <img class="img-fluid" src="images/portfolio/portfolio-3.jpg" alt="realizacja 1">
+                    </div>
+                </div>
+                <div class="sk-portfolio-item">
+                    <div class="sk-portfolio-box-img">
+                        <img class="img-fluid" src="images/portfolio/portfolio-1.jpg" alt="realizacja 1">
+                    </div>
+                </div>
+                <div class="sk-portfolio-item">
+                    <div class="sk-portfolio-box-img">
+                        <img class="img-fluid" src="images/portfolio/portfolio-2.jpg" alt="realizacja 1">
+                    </div>
+                </div>
+                <div class="sk-portfolio-item">
+                    <div class="sk-portfolio-box-img">
+                        <img class="img-fluid" src="images/portfolio/portfolio-3.jpg" alt="realizacja 1">
+                    </div>
+                </div>
+                <div class="sk-portfolio-item">
+                    <div class="sk-portfolio-box-img">
+                        <img class="img-fluid" src="images/portfolio/portfolio-1.jpg" alt="realizacja 1">
+                    </div>
+                </div>
+                <div class="sk-portfolio-item">
+                    <div class="sk-portfolio-box-img">
+                        <img class="img-fluid" src="images/portfolio/portfolio-2.jpg" alt="realizacja 1">
+                    </div>
+                </div>
+                <div class="sk-portfolio-item">
+                    <div class="sk-portfolio-box-img">
+                        <img class="img-fluid" src="images/portfolio/portfolio-3.jpg" alt="realizacja 1">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Stopka -->
     <div class="sk-footer-top">
         <div class="container sk-footer-top-content">
