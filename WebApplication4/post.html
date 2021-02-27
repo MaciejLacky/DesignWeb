@@ -56,7 +56,7 @@
         </div>
     </div>
     <!-- lista wpisow -->
-    <div class="sk-post-list-page">
+    <div class="sk-post-page">
         <div class="container">
            
             <div class="row">
@@ -117,7 +117,32 @@
                                 </div>
                             </div>
                         </div>
-
+                        <!-- formularz komentarzy -->
+                        <div class="sk-comments-form">
+                            <form class="sk-form" action="#">
+                                <div class="row">
+                                    <div class="form-group col-md-4">
+                                        <label for="name">Twoje imię</label>
+                                        <input class="form-control sk-comments-form-control" type="text" id="name">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="email">Adres email</label>
+                                        <input class="form-control sk-comments-form-control" type="email" id="email">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="url">Twoja strona</label>
+                                        <input class="form-control sk-comments-form-control" type="url" id="url">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col">
+                                        <label for="comment">Twój komentarz</label>
+                                        <textarea class="form-control sk-comments-form-control" id="comment" cols="30" rows="5"></textarea>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary btn-lg text-white sk-comments-form-btn">Wyślij komentarz</button>
+                            </form>
+                        </div>
                     </div>                  
                 </div>
                 <div class="col-lg-4">
