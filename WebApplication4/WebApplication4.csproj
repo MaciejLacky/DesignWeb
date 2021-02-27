@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="contact.html" />
     <Content Include="gulpfile.js" />
     <Content Include="images\bg\footer-bg.jpg" />
     <Content Include="images\bg\top-bg.jpg" />
@@ -230,6 +231,8 @@
     <Content Include="source\custom\components\_form.scss" />
     <Content Include="source\custom\components\_comments-form.scss" />
     <Content Include="source\custom\pages\_post-page.scss" />
+    <Content Include="source\custom\components\_about-avatar.scss" />
+    <Content Include="source\custom\pages\_about-page.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
