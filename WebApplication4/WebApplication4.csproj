@@ -103,8 +103,11 @@
     <Content Include="images\ui\date-icon.png" />
     <Content Include="images\ui\icon-top-cart.png" />
     <Content Include="images\ui\icon-top-search.png" />
+    <Content Include="images\ui\reply-arrow.png" />
+    <Content Include="images\ui\user-avatar.png" />
     <Content Include="images\ui\view-grid.png" />
     <Content Include="images\ui\view-list.png" />
+    <Content Include="post.html" />
     <Content Include="post-list.html" />
     <Content Include="index.html" />
     <Content Include="style\style.css" />
@@ -219,6 +222,8 @@
     <Content Include="source\custom\components\_post-item.scss" />
     <Content Include="source\custom\components\_post-widgets.scss" />
     <Content Include="source\custom\components\_pagination.scss" />
+    <Content Include="source\custom\pages\_post-list-page.scss" />
+    <Content Include="source\custom\components\_comments.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
