@@ -67,6 +67,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\pages\product-1-sm.png" />
+    <Content Include="images\pages\product-2-sm.png" />
+    <Content Include="images\pages\product-3-sm.png" />
+    <Content Include="images\pages\product-5-sm.png" />
+    <Content Include="images\pages\product-6-sm.png" />
+    <Content Include="images\pages\product-8-sm.png" />
+    <Content Include="images\pages\product-big.jpg" />
+    <Content Include="images\ui\stars.png" />
+    <Content Include="product.html" />
+    <Content Include="shop.html" />
     <Content Include="images\portfolio\portfolio-1.jpg" />
     <Content Include="images\portfolio\portfolio-2.jpg" />
     <Content Include="images\portfolio\portfolio-3.jpg" />
@@ -242,6 +252,10 @@
     <Content Include="source\custom\components\_contact-form.scss" />
     <Content Include="source\custom\components\_navigator.scss" />
     <Content Include="source\custom\pages\_portfolio-page.scss" />
+    <Content Include="source\custom\components\_product-search.scss" />
+    <Content Include="source\custom\components\_product-item.scss" />
+    <Content Include="source\custom\pages\_product-list-page.scss" />
+    <Content Include="source\custom\pages\_product-page.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
