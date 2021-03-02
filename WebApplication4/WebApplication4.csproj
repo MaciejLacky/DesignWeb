@@ -256,6 +256,7 @@
     <Content Include="source\custom\components\_product-item.scss" />
     <Content Include="source\custom\pages\_product-list-page.scss" />
     <Content Include="source\custom\pages\_product-page.scss" />
+    <Content Include="source\custom\components\_tabs.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
